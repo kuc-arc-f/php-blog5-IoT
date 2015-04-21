@@ -1,0 +1,11 @@
+application: agri-kuc
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /trans.php
+  script: trans.php
+
+- url: /info.php
+  script: info.php

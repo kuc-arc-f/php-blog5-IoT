@@ -29,7 +29,8 @@ var_dump($contents);
 
 $URL = 'https://api.parse.com/1/classes/SenObject1';
 
-$nDate = date("YmjHis");
+//$nDate = date("YmjHis");
+$nDate = date("YmdHis");
 $fDate = floatval($nDate);
 // var_dump($fDate) ;
 
